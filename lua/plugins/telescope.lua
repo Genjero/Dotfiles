@@ -11,5 +11,6 @@ return {
 		map("n", "<leader>fg", builtin.live_grep, { desc = "live_grep" })
 		map("n", "<leader>fb", builtin.buffers, { desc = "buffers" })
 		map("n", "<leader>fh", builtin.help_tags, { desc = "help_tags" })
+		map("n", "<leader>fc", builtin.colorscheme, { desc = "colorscheme" })
 	end,
 }

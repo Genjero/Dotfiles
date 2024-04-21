@@ -29,8 +29,8 @@ map("n", "<leader>0", "<Cmd>BufferLast 0<CR>", opts)
 map("n", "<leader>c", "<Cmd>BufferClose<CR>", opts)
 
 -- Twilight
-map({ "n" }, "<leader>t", ":Twilight<cr>", opts)
-map({ "n" }, "<leader>a", ":ZenMode<cr>", opts)
+--map({ "n" }, "<leader>t", ":Twilight<cr>", opts)
+map({ "n" }, "<leader>t", ":ZenMode<cr>", opts)
 
 -- Using ufo provider need remap `zR` and `zM`.
 --map('n', 'zR', require('ufo').openAllFolds)
